@@ -1,0 +1,28 @@
+@import '../../common/vars';
+
+.article {
+  width: 600px;
+  margin-bottom: 20px;
+
+  &__title {
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__content {
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__date {
+    color: $article-date-color;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+  @media screen and (max-width: $tablet) {
+    width: auto;
+  }
+}

@@ -1,0 +1,7 @@
+@import '../../common/vars';
+
+.main {
+  max-width: $content-width;
+  margin: $header-height auto $footer-height;
+  padding: 20px 30px 0;
+}

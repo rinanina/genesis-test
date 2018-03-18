@@ -1,0 +1,19 @@
+@import '../../common/vars';
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $footer-bg-color;
+  height: $footer-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__date {
+    color: $footer-date-color;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

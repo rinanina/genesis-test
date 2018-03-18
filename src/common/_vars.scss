@@ -1,0 +1,36 @@
+$white: #fff;
+$black: #000;
+$grey: #808080;
+
+$primary: $black;
+$secondary: $white;
+$accent: $grey;
+
+//common
+$link-color: $primary;
+
+//Header
+$header-bg-color: $secondary;
+$header-border-color: $primary;
+
+//Footer
+$footer-bg-color: $primary;
+$footer-date-color: $secondary;
+
+//Article
+$article-date-color: $accent;
+
+//Select
+$select-bg: $primary;
+
+//Article-details
+$article-details-link-color: $accent;
+
+//Sizes
+$content-width: 1000px;
+$header-height: 78px;
+$footer-height: $header-height;
+
+//Breakpoints
+$tablet: 768px;
+$mobile: 360px;

@@ -1,0 +1,12 @@
+@import '../../common/vars';
+
+.select {
+  width: 40px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background: $select-bg;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import '../../common/vars';
+
+.article-details {
+  padding: 20px 0;
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  &__content {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  &__link {
+    font-size: 12px;
+    line-height: 14px;
+    color: $article-details-link-color;
+    text-decoration: underline;
+  }
+}
